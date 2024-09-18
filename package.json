@@ -1,6 +1,6 @@
 {
   "name": "portfolio-website",
-  "homepage": "https://Mital-Kachhadiya.github.io/bussg",
+  "homepage": "https://mital-kachhadiya.github.io/bussg",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,6 +17,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
